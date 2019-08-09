@@ -1,4 +1,4 @@
-.home-page{
+.error-page{
   margin: 0;
   padding: 0;
   background-image: url('../images/background.jpg');
@@ -9,23 +9,13 @@
   height: 100%;
 }
 
-.home-page-info {
-  top: 25%;
-  left: 18%;
+.error-message {
+  top: 45%;
+  left: 34%;
   position: fixed;
   padding: 0;
   margin: 0;
-}
-
-.logo {
-  height: 400px;
-}
-
-.all-links {
-  text-align:center; 
-}
-
-.link{
-  height: 50px;
-  margin: 10px;
+  color: white;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 3em;
 }
