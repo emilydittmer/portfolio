@@ -16,4 +16,11 @@ a {
   text-decoration: none;
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 1.1em;
+  font-weight: 500;
+}
+
+a:hover {
+  font-weight: 900;
+  color: pink;
+  cursor: pointer;
 }

@@ -22,10 +22,14 @@
 }
 
 .all-links {
-  text-align:center; 
+  text-align: center; 
 }
 
 .link{
   height: 50px;
   margin: 10px;
+}
+
+.link:hover {
+  cursor: pointer;
 }
