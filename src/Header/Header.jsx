@@ -24,7 +24,7 @@ class Header extends Component {
               </li>
               <li>
                 <a href="#">
-                  <NavLink to="/Portfolio" exact activeClassName="active">
+                  <NavLink to="/Projects" exact activeClassName="active">
                     Portfolio
                   </NavLink>
                 </a>
