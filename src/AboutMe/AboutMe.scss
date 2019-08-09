@@ -1,0 +1,76 @@
+.about-me {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.left-half {
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/background.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.img-location {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20% 60% 20%;
+}
+
+.headshot {
+  border: 2px solid white;
+  border-radius: 50%;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.right-half{
+  grid-column: 2/-1;
+  padding: 30px;
+}
+
+.about-me-logo {
+  height: 300px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.about-me-info {
+  text-align: justify;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+h4{
+  text-decoration: underline;
+  font-size: 1.25em;
+}
+
+.all-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-sec{
+  margin-top: 10px;
+}
+
+.skills-list {
+  list-style-type: circle; 
+}
+
+li {
+  margin: 5px;
+  font-weight: 300;
+}
